@@ -19,10 +19,9 @@ This example includes:
 - Prompt to be used to create a website that is driven by the custom mode
 
 ## Installation
-1. Install and configure IBM BOB
-2. Shut down IBM BOB
-3. Make a back-up of your existing custom mode definitions file
-4. Copy the custom mode definitions file to your IBM BOB configurations folder
+1. If running, shut down IBM BOB
+2. Make a back-up of your existing custom mode definitions file
+3. Copy the custom mode definitions file to your IBM BOB configurations folder
 
 ### Prerequisites
 
@@ -37,15 +36,15 @@ This example includes:
 
 1. All whitespace in YAML file, custom_modes.yaml must be spaces, not tabs
 2. All YAML in custom_modes.yaml must be well-formed
-2a. If experiencing hard-to-understand errors, consult the [YAML language specification](https://yaml.org/spec/1.2.2/#331-well-formed-streams-and-identified-aliases) or use a [YAML checker](https://yamlchecker.com/)l
+3. If experiencing hard-to-understand YAML errors, consult the [YAML language specification](https://yaml.org/spec/1.2.2/#331-well-formed-streams-and-identified-aliases) or use a [YAML checker](https://yamlchecker.com/)l or a [YAML linter](https://www.yamllint.com/)
 
 ## Usage
 
 ### Running the Custom Mode
 
-1. enter instruction to IBM BOB: switch-mode ux-company-branded-dev
-2. ensure response from IBM BOB is Task Completed (otherwise troubleshoot)
-3. enter instruction to IBM BOB: create a mock-up of a product documentation web page
+1. Enter instruction to IBM BOB: switch-mode ux-company-branded-dev
+2. Ensure response from IBM BOB is Task Completed (otherwise troubleshoot)
+3. Enter instruction to IBM BOB: create a mock-up of a product documentation web page
 
 ### Available Tools
 
